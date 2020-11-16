@@ -12,7 +12,7 @@
 	<dependencies>
 	<dependency>
 	
-	    <groupId>com.github.Teaislife20</groupId>
+	    <groupId>com.github.User</groupId>
 	    <artifactId>Repo</artifactId>
 	    <version>Tag</version>
 	    </dependency>
