@@ -13,8 +13,8 @@
 	<dependency>
 	
 	    <groupId>com.github.Teaislife20</groupId>
-	    <artifactId>Assignment1</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
+	    <artifactId>Repo</artifactId>
+	    <version>Tag</version>
 	    </dependency>
 	    </dependencies>
 </project>
