@@ -7,13 +7,14 @@
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
+		    
 		</repository>
 	</repositories>
 	<dependencies>
 	
 	<dependency>
-	<groupId>com.github.Teaislife20</groupId>
-	    <artifactId>CT417</artifactId>
+	<groupId>SoftwareEng</groupId>
+	    <artifactId>Assignment1</artifactId>
 	    <version>-SNAPSHOT</version>
 	    </dependency>
 	    </dependencies>
