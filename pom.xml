@@ -11,10 +11,9 @@
 	</repositories>
 	<dependencies>
 	<dependency>
-	
-	    <groupId>com.github.Teaislife20</groupId>
+	 <groupId>com.github.Teaislife20</groupId>
 	    <artifactId>CT417</artifactId>
-	    <version>Tag</version>
+	    <version>0.0.1-SNAPSHOT</version>
 	    </dependency>
 	    </dependencies>
 </project>
