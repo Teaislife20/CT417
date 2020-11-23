@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.Teaislife20</groupId>
+  <groupId>SoftwareEng</groupId>
   <artifactId>CT417</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Assignment1</name>
@@ -17,7 +17,7 @@
 <dependency>
 	    <groupId>com.github.Teaislife20</groupId>
 	    <artifactId>CT417</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
+	    <version>master-SNAPSHOT</version>
 	</dependency>
 	 <dependency>
 	 <!--Q1:Part C|Start and end dates should use Joda Time classes (i.e. DateTime), which must be
@@ -41,8 +41,6 @@ added as a project dependency-->
     </dependency>
 	</dependencies>
 	 <properties>
- <maven.compiler.source>11</maven.compiler.source>
-<maven.compiler.target>11</maven.compiler.target>
  
 </properties>
 	
