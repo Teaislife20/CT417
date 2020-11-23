@@ -4,6 +4,11 @@
   <artifactId>CT417</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Assignment1</name>
+  <properties>
+  <maven.compiler.source>11</maven.compiler.source>
+<maven.compiler.target>11</maven.compiler.target>
+
+  </properties>
   
   <repositories>
 		<repository>
@@ -17,5 +22,26 @@
 	    <artifactId>CT417</artifactId>
 	    <version>0.0.1-SNAPSHOT</version>
 	</dependency>
+	 <dependency>
+	 <!--Q1:Part C|Start and end dates should use Joda Time classes (i.e. DateTime), which must be
+added as a project dependency-->
+        <groupId>joda-time</groupId>
+        <artifactId>joda-time</artifactId>
+        <version>2.10.8</version>
+        </dependency>
+ <!-- Q1:Part C|Importing junit api and engine for creating tests --> 
+        <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.0</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.7.0</version>
+        <scope>test</scope>
+    </dependency>
 	</dependencies>
+	
 </project>
