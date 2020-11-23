@@ -7,11 +7,13 @@
   
   <!-- Adding Jitpack to my project -->
   <repositories>
+		
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
+	
 <dependencies>
 <!-- Linking my project to jitpack -->
 <dependency>
@@ -19,6 +21,7 @@
 	    <artifactId>CT417</artifactId>
 	    <version>master-SNAPSHOT</version>
 	</dependency>
+	
 	 <dependency>
 	 <!--Q1:Part C|Start and end dates should use Joda Time classes (i.e. DateTime), which must be
 added as a project dependency-->
@@ -33,6 +36,7 @@ added as a project dependency-->
         <version>5.7.0</version>
         <scope>test</scope>
     </dependency>
+    
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
@@ -40,8 +44,10 @@ added as a project dependency-->
         <scope>test</scope>
     </dependency>
 	</dependencies>
-	 <properties>
- 
-</properties>
 	
-</project>
+	 <properties>
+ <maven.compiler.source>11</maven.compiler.source>
+<maven.compiler.target>11</maven.compiler.target>
+ </properties>
+ 
+	</project>
