@@ -17,7 +17,7 @@
 <dependency>
 	    <groupId>com.github.Teaislife20</groupId>
 	    <artifactId>CT417</artifactId>
-	    <version>Tag</version>
+	    <version>master-SNAPSHOT</version>
 	</dependency>
 	 <dependency>
 	 <!--Q1:Part C|Start and end dates should use Joda Time classes (i.e. DateTime), which must be
@@ -41,8 +41,9 @@ added as a project dependency-->
     </dependency>
 	</dependencies>
 	 <properties>
-  <maven.compiler.source>11</maven.compiler.source>
+ <maven.compiler.source>11</maven.compiler.source>
 <maven.compiler.target>11</maven.compiler.target>
+ 
 </properties>
 	
 </project>
