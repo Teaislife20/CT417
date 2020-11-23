@@ -17,7 +17,7 @@
 <dependency>
 	    <groupId>com.github.Teaislife20</groupId>
 	    <artifactId>CT417</artifactId>
-	    <version>master-SNAPSHOT</version>
+	    <version>0.0.1-SNAPSHOT</version>
 	</dependency>
 	 <dependency>
 	 <!--Q1:Part C|Start and end dates should use Joda Time classes (i.e. DateTime), which must be
