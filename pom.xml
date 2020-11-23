@@ -19,7 +19,7 @@
 <dependency>
 	    <groupId>com.github.Teaislife20</groupId>
 	    <artifactId>CT417</artifactId>
-	    <version>master-SNAPSHOT</version>
+	    <version>1f9eb9a</version>
 	</dependency>
 	
 	 <dependency>
