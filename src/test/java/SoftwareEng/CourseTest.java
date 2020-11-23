@@ -50,7 +50,7 @@ public class CourseTest {
     
     @Test
     public void testAddModule() {
-        System.out.println("addModule");
+       
         module1.addStudent(student1);
         module1.addStudent(student2);
         module2.addStudent(student2);
@@ -66,7 +66,7 @@ public class CourseTest {
    
     @Test
     public void testGetCourseName() {
-        System.out.println("getCourseName");
+      
         Course instance = course1;
         String expResult = "CS & IT";
         String result = instance.getCourseName();
@@ -76,7 +76,7 @@ public class CourseTest {
    
     @Test
     public void testAddStudent() {
-        System.out.println("addStudent");
+       
         Student student = student4;
         Course instance = course1;
         instance.addStudent(student);
@@ -85,7 +85,7 @@ public class CourseTest {
    
     @Test
     public void testPrintStudentUsernames() {
-        System.out.println("printStudentUsernames");
+       
         
         Course instance = course1;
        
@@ -96,7 +96,7 @@ public class CourseTest {
    
     @Test
     public void testPrintModuleList() {
-        System.out.println("printModuleList");
+       
         Course instance = course1;
         instance.addModule(module1);
         instance.printModuleList();
@@ -105,7 +105,7 @@ public class CourseTest {
    
     @Test
     public void testGetStartDate() {
-        System.out.println("getStartDate");
+       
         Course instance = course1;
         DateTime expResult = startDate;
         DateTime result = instance.getStartDate();
@@ -115,7 +115,7 @@ public class CourseTest {
    
     @Test
     public void testGetEndDate() {
-        System.out.println("getEndDate");
+      
         Course instance = course1;
         DateTime expResult = endDate;
         DateTime result = instance.getEndDate();
@@ -125,7 +125,7 @@ public class CourseTest {
    
     @Test
     public void testPrintStudentDetails() {
-        System.out.println("printStudentDetails");
+      
         Course instance = course1;
         instance.printStudentDetails();
     }

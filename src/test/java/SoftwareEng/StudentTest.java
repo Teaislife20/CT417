@@ -25,7 +25,6 @@ public class StudentTest {
     
     @org.junit.jupiter.api.Test
     public void testGetUserName() {
-        System.out.println("getUserName");
         Student instance = student1;
         String expResult = "Edward22";
         String result = instance.getUserName();
@@ -35,7 +34,6 @@ public class StudentTest {
     
     @Test
     public void testGetAge() {
-        System.out.println("getAge");
         Student instance = student1;
         int expResult = 22;
         int result = instance.getAge();
@@ -45,7 +43,7 @@ public class StudentTest {
    
     @Test
     public void testAddModule() {
-        System.out.println("addModule");
+        
         Module module = module1;
         Student instance = student1;
         instance.addModule(module);
@@ -54,7 +52,7 @@ public class StudentTest {
    
     @Test
     public void testAddCourse() {
-        System.out.println("addCourse");
+       
         Course course = course1;
         Student instance = student1;
         boolean expResult = true;
@@ -65,7 +63,7 @@ public class StudentTest {
    
     @Test
     public void testPrintStudentDetails() {
-        System.out.println("printStudentDetails");
+       
         Student instance = student1;
         student1.addCourse(course1);
         student1.addModule(module1);

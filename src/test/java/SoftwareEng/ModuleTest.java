@@ -24,7 +24,7 @@ public class ModuleTest {
     
     @Test
     public void testAddStudent() {
-        System.out.println("addStudent");
+       
         Student student = student1;
         Module instance = module1;
         boolean expResult = true;
@@ -35,7 +35,7 @@ public class ModuleTest {
    
     @Test
     public void testPrintStudentList() {
-        System.out.println("printStudentList");
+       
         Module instance1 = module1;
         @SuppressWarnings("unused")
 		Module instance2 = module2;
@@ -47,7 +47,7 @@ public class ModuleTest {
     
     @Test
     public void testGetModuleDetails() {
-        System.out.println("getModuleDetails");
+       
         Module instance = module1;
         String expResult = "CT4100 - Information Retrieval";
         String result = instance.getModuleDetails();
@@ -57,7 +57,7 @@ public class ModuleTest {
     
     @Test
     public void testPrintStudentDetails() {
-        System.out.println("printStudentDetails");
+       
         Module instance = module2;
         instance.printStudentDetails();
     }
@@ -66,7 +66,7 @@ public class ModuleTest {
     @SuppressWarnings("unchecked")
 	@Test
     public void testGetStudents() {
-        System.out.println("getStudents");
+       
         Module instance = module1;
         module1.addStudent(student1);
         @SuppressWarnings("rawtypes")
@@ -79,7 +79,7 @@ public class ModuleTest {
     
     @Test
     public void testGetModuleName() {
-        System.out.println("getModuleName");
+       
         Module instance = module1;
         String expResult = "Information Retrieval";
         String result = instance.getModuleName();
@@ -89,7 +89,7 @@ public class ModuleTest {
     
     @Test
     public void testGetModuleID() {
-        System.out.println("getModuleID");
+      
         Module instance = module2;
         String expResult = "CT4101";
         String result = instance.getModuleID();
