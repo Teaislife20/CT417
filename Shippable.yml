@@ -1,0 +1,13 @@
+
+language:
+java
+
+jdk:
+  - oraclejdk11
+  
+  branches:
+  only:
+    - master
+    
+    on_success:
+    - mvn clean test
