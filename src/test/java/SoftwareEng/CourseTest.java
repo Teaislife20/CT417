@@ -78,7 +78,7 @@ public class CourseTest {
     @Test
     public void testAddStudent() {
        
-        Student student = student4;
+        Student student = student3;
         Course instance = course1;
         instance.addStudent(student);
     }
