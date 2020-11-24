@@ -48,7 +48,7 @@ public class CourseTest {
     public void tearDown() throws Exception {
     }
     
-    /*
+    
     @Test
     public void testAddModule() {
        
@@ -63,7 +63,7 @@ public class CourseTest {
         instance.addModule(module3);
         course1.printStudentDetails();
     }
-*/
+
    
     @Test
     public void testGetCourseName() {
@@ -123,13 +123,13 @@ public class CourseTest {
         assertEquals(expResult, result);
     }
 
-   /*
+   
     @Test
     public void testPrintStudentDetails() {
       
         Course instance = course1;
         instance.printStudentDetails();
     }
-*/
+
        
 }

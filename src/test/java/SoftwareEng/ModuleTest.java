@@ -38,9 +38,7 @@ public class ModuleTest {
     public void testPrintStudentList() {
        
         Module instance1 = module1;
-        @SuppressWarnings("unused")
-		Module instance2 = module2;
-        instance1.addStudent(student1);
+		instance1.addStudent(student1);
         instance1.addStudent(student2);
         instance1.printStudentList();
     }
@@ -64,7 +62,7 @@ public class ModuleTest {
     }
 
     
-    /*
+    
 	@Test
     public void testGetStudents() {
        
@@ -75,7 +73,7 @@ public class ModuleTest {
         ArrayList<Student> result = instance.getStudents();
         assertEquals(expResult, result);
     }
-*/
+
     
     @Test
     public void testGetModuleName() {
