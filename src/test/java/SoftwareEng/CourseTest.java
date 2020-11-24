@@ -48,8 +48,8 @@ public class CourseTest {
     public void tearDown() throws Exception {
     }
     
-    /*
-    @Test
+    
+    
     public void testAddModule() {
        
         module1.addStudent(student1);
@@ -63,7 +63,7 @@ public class CourseTest {
         instance.addModule(module3);
         course1.printStudentDetails();
     }
-*/
+
    
     @Test
     public void testGetCourseName() {
