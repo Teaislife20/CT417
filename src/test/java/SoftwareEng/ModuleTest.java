@@ -14,7 +14,7 @@ public class ModuleTest {
 	Student student1 = new Student("Edward", 17412542, TestDOB);
     Student student2 = new Student("James", 17412500, TestDOB);
     Student student3 = new Student("Leon", 16218754, TestDOB);
-    Student student4 = new Student("Tony", 15987532, TestDOB);
+   
     
     Module module1 = new Module("Information Retrieval", "CT4100");
     Module module2 = new Module("Machine Learning", "CT4101");
@@ -66,7 +66,7 @@ public class ModuleTest {
 	@Test
     public void testGetStudents() {
        
-        Module instance = module2;
+        Module instance = module1;
         module1.addStudent(student1);
 		ArrayList<Student> expResult = new ArrayList<Student>();
         expResult.add(student1);
