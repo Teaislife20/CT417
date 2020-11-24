@@ -64,14 +64,13 @@ public class ModuleTest {
     }
 
     
-    @SuppressWarnings("unchecked")
+    
 	@Test
     public void testGetStudents() {
        
         Module instance = module1;
         module1.addStudent(student1);
-        @SuppressWarnings("rawtypes")
-		ArrayList<Student> expResult = new ArrayList();
+		ArrayList<Student> expResult = new ArrayList<Student>();
         expResult.add(student1);
         ArrayList<Student> result = instance.getStudents();
         assertEquals(expResult, result);
