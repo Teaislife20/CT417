@@ -13,8 +13,7 @@ public class Student {
     private DateTime DOB;
     private int ID;
     private String userName;
-    @SuppressWarnings({ "unchecked", "rawtypes" })
-	private ArrayList<Module> Modules = new ArrayList();
+	private ArrayList<Module> Modules = new ArrayList<Module>();
     private Course course;
 
 

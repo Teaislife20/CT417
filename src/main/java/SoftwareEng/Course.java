@@ -6,10 +6,8 @@ import org.joda.time.DateTime;
 public class Course {
 //Q1:Part c| A course programme class containing course name (CS & IT or ECE, etc.), list of modules, list of students that are enrolled, academic start date and end date. 
     private String courseName;
-    @SuppressWarnings({ "unchecked", "rawtypes" })
-	private ArrayList<Module> Modules = new ArrayList();
-    @SuppressWarnings({ "unchecked", "rawtypes" })
-	private ArrayList<Student> Students = new ArrayList();
+	private ArrayList<Module> Modules = new ArrayList<Module>();
+	private ArrayList<Student> Students = new ArrayList<Student>();
     private DateTime startDate;
     private DateTime endDate;
     
