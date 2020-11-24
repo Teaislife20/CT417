@@ -20,7 +20,7 @@ public class CourseTest {
 	    Student student1 = new Student("Edward", 17412542, TestDOB);
 	    Student student2 = new Student("James", 17412500, TestDOB);
 	    Student student3 = new Student("Leon", 16218754, TestDOB);
-	    Student student4 = new Student("Tony", 15987532, TestDOB);
+	   
 	    
 	    Module module1 = new Module("Information Retrieval", "CT4100");
 	    Module module2 = new Module("Machine Learning", "CT4101");
