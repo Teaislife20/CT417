@@ -66,7 +66,7 @@ public class ModuleTest {
 	@Test
     public void testGetStudents() {
        
-        Module instance = module1;
+        Module instance = module2;
         module1.addStudent(student1);
 		ArrayList<Student> expResult = new ArrayList<Student>();
         expResult.add(student1);
